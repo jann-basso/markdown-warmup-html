@@ -7,14 +7,14 @@
 
 /* HEADER */
 #header {
-    outline: 1px solid green;
     padding: 5px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #h1-header {
-    color: rgb(81, 4, 170);
+    color: rgb(67, 6, 107);;
     font-size: 80px;
 }
 
@@ -24,59 +24,114 @@
 
 
 /* CONTENT */
+/* alignment */
 #content {
-    outline: 1px solid red;
     padding: 5px;
     width: 90%;
     margin: auto;
     margin-bottom: 30px;   
 }
 
-
 #content-box {
-    background-color: gray;
     width: 100%;
     margin: 0 auto;
-    display: block; 
+    display: flex; 
+    flex-wrap: wrap;
 }
-
 
 .article-topics {
-    outline: 1px solid peru;
-    width: 280px;
+    background-color: rgb(244, 238, 248);
+    width: 290px;
     height: 400px;
     display: inline-block;
-    margin: 10px;
+    margin: 7px;
     padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px  rgb(221, 212, 226);
 }
+
 
 .article-topics-images {
     width: auto;
     height: auto;
-
 }
 
+/* texts */
 .content-titles {
     color: rgb(122, 9, 103);
+    margin: 10px;
+    text-align: center;
+}
+
+#p-creatingheaders {
+    width: 90%;
+    text-align: justify;
+    margin: auto;
 }
 
 hgroup {
-    background-color: rgba(247, 223, 243, 0.658);
-    width: 250px;
+    background-color:  rgb(223, 219, 226);
+    width: 82%;
     padding: 7px;
     padding-left: 20px;
+    margin: auto;
+    margin-top: 25px;
 }
 
 .list-titles {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
-figure {
-    margin-left: 10px;
+
+/* lists */
+.topic {
+    list-style-position: inside;
 }
+
+.topic-basicfunc {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.subtopic {
+    list-style-position: inside;
+    margin-left: 30px;
+}
+
+#lists-content {
+    margin-left: 20px;
+}
+
+input {
+    margin: 5px;
+    background-color: blue;
+    border: none;
+}
+
+/* table */
+table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+th {
+    border-bottom: 1px dashed black;
+    padding: 7px;
+}
+
+
+/* others */
+figure {
+    margin: auto;
+    padding: 10px;
+}
+
 
 pre {
-    background-color: rgba(247, 223, 243, 0.658);
-    width: 320px;
-    margin-left: 10px;
+    background-color: rgb(223, 219, 226);
+    width: auto;   
 }
+
