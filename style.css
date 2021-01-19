@@ -5,6 +5,11 @@
     color: rgb(41, 40, 40);
 }
 
+body {
+    background: rgb(101,3,112);
+    background: linear-gradient(90deg, rgba(101,3,112,1) 0%, rgba(109,6,92,1) 95%);
+}
+
 /* HEADER */
 #header {
     padding: 5px;
@@ -16,10 +21,13 @@
 #h1-header {
     color: rgb(67, 6, 107);;
     font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(216, 211, 211);
 }
 
 #p-header {
     font-size: 23px;
+    color: white;
 }
 
 
@@ -134,4 +142,3 @@ pre {
     background-color: rgb(223, 219, 226);
     width: auto;   
 }
-
